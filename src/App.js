@@ -63,6 +63,7 @@ class App extends Component {
         this.setState({
             todos: todos.filter(todo => todo.id !== id)
         });
+        
     }
 
     render(){
